@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ember Drift — a little light against the dark</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #070410; height: 100%; }
+  body {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    font-family: "Trebuchet MS", Verdana, sans-serif; color: #f4f0ff;
+  }
+  #wrap { position: relative; }
+  canvas {
+    display: block; width: min(960px, 96vw); height: auto;
+    border: 1px solid rgba(255, 154, 60, 0.35); border-radius: 10px;
+    box-shadow: 0 0 60px rgba(255, 93, 59, 0.18), 0 0 120px rgba(148, 120, 255, 0.12);
+    background: #0b0714; cursor: crosshair;
+  }
+  #bar {
+    width: min(960px, 96vw); display: flex; justify-content: space-between; align-items: baseline;
+    padding: 10px 2px 0; font-size: 13px; color: rgba(244, 240, 255, 0.62);
+  }
+  #bar b { color: #ff9a3c; }
+  #mute { cursor: pointer; user-select: none; }
+  #mute:hover { color: #f4f0ff; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game" width="960" height="600"></canvas></div>
+<div id="bar">
+  <span><b>EMBER DRIFT</b> &nbsp;·&nbsp; survive 10 waves, gather sparks, choose upgrades</span>
+  <span id="mute">🔊 sound on</span>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
