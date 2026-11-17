@@ -1,5 +1,11 @@
 # Ember Drift
 
+[![Ember Drift](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01)
+[![Rank](https://make.fun/badge/best-game-01/rank.svg)](https://make.fun/bounty/best-game-01)
+[![Reward](https://make.fun/badge/best-game-01/reward.svg)](https://make.fun/bounty/best-game-01)
+
+Built for [make.fun's Build the best game bounty](https://make.fun/bounty/best-game-01) — $1,000 in USDC.
+
 A little light against the dark. A neon arena survival game: pilot an
 ember spirit through 10 waves of shadow wisps, darters, brutes and
 spitters, gather sparks, and choose one of three upgrades between waves.
